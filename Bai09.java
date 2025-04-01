@@ -2,7 +2,6 @@ package Lab1;
 import java.util.Scanner;
 
 public class Bai09 {
-
     public static int tinhTongChuSo(int n) {
         int tong = 0;
         while (n > 0) {
