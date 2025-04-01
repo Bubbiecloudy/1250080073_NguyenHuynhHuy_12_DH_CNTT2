@@ -1,6 +1,7 @@
+package Lab1;
 import java.util.Scanner;
 
-public class TachNgayThangNam {
+public class Bai15 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
