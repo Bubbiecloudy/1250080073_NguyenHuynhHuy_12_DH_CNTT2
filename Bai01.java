@@ -1,4 +1,5 @@
 package Lab1;
+import java.util.Scanner;
 
 public class Bai01 {
     public static void main(String[] args) {
