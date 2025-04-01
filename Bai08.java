@@ -2,7 +2,6 @@ package Lab1;
 import java.util.Scanner;
 
 public class Bai08 {
-    
     public static int firstNum(int n) {
         while (n >= 10) {
             n = n / 10;
