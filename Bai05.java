@@ -19,8 +19,6 @@ public class Bai05 {
         if (c < min) min = c;
 
         System.out.println("So nho nhat la: " + min);
-
-        scanner.close();
     }
 }
 
