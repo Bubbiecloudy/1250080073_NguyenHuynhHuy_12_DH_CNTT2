@@ -2,7 +2,6 @@ package Lab1;
 import java.util.Scanner;
 
 public class Bai13 {
-
     public static int demSoTu(String chuoi) {
         int dem = 0;
         boolean trongTu = false;
