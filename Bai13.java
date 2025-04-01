@@ -8,13 +8,21 @@ public class Bai13 {
         System.out.print("Nhap chuoi: ");
         String chuoi = scanner.nextLine();
 
-        String[] tu = chuoi.split(" ");
+        int soTu = 0;
+        boolean isWord = false;
 
-        int soTu = tu.length;
+        for (int i = 0; i < chuoi.length(); i++) {
+            char c = chuoi.charAt(i);
+
+            if (c != ' ' && !isWord) {
+                soTu++;
+                isWord = true;
+            }
+            if (c == ' ') {
+                isWord = false;
+            }
+        }
 
         System.out.println("So tu trong chuoi: " + soTu);
-
-        scanner.close();
     }
 }
-
