@@ -2,7 +2,6 @@ package Lab1;
 import java.util.Scanner;
 
 public class Bai11 {
-
     public static int daoNguocSo(int n) {
         int daoNguoc = 0;
         while (n != 0) {
