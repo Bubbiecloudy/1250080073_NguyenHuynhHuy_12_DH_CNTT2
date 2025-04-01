@@ -2,7 +2,6 @@ package Lab1;
 import java.util.Scanner;
 
 public class Bai10 {
-
     public static int demSoChuSo(int n) {
         int dem = 0;
         while (n > 0) {
