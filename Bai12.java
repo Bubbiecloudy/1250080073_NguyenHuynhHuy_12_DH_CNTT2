@@ -2,7 +2,6 @@ package Lab1;
 import java.util.Scanner;
 
 public class Bai12 {
-
     public static boolean kiemTraSoDoiXung(int n) {
         int soGoc = n;
         int daoNguoc = 0;
