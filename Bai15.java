@@ -5,7 +5,7 @@ public class Bai15 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Nhap ngay (dd/mm/yyyy): ");
+        System.out.print("Nhap ngay (ngay/thang/nam): ");
         String ngay = scanner.nextLine().trim();
 
         String[] phanTach = ngay.split("/");
